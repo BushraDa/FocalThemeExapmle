@@ -1,0 +1,233 @@
+/* Main Rules */
+.container{width: 900px;margin: auto;}
+.clearfix {clear: both;}
+
+/* Header */
+header .slider {
+    background-image: url(../images/slider2.jpg);
+    background-size: cover;
+    height: 500px;
+}
+header .slider .intro {color: #FFF;padding-top: 200px;}
+header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding: 5px 0;
+    color: #FFF;
+}
+header .slider .intro button {
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #FFF;
+}
+header nav {
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+header nav h2 {color: #FFF;margin-top: 20px}
+header nav h2 span {color: #3CD487;}
+header nav ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;
+}
+header nav ul li {float: left;padding: 10px;}
+header nav ul li a {color: #FFF;text-decoration: none;}
+header nav ul li a:hover {color: #3CD487;text-decoration: none;}
+header nav ul li a.active {color: #2BCC6F;}
+
+/* Features */
+.features {overflow: hidden; }
+.features .feat {width: 33.33333%;height: 180px;}
+
+/* About Me */
+.about-me {background-color: #F2F2F2;overflow: hidden;}
+.about-me .image {width: 40%;}
+.about-me .image img {width: 100%;}
+.about-me .info {width: 60%;}
+.my-skills h3 {margin-left: 0}
+.about-me .info > p, .my-skills .skills p {margin-top: 20px;}
+.about-me .info .hobbies {overflow: hidden;margin: 20px 0 0 40px;}
+.about-me .info .hobbies .content {
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.about-me .info .hobbies .content .icon {width: 10%;margin-right: 7%;}
+.about-me .info .hobbies .content .icon i {margin-top: 20px; color: #2BCC6F;}
+.about-me .info .hobbies .content .text {width: 83%;}
+.about-me .info .hobbies .content .text p {margin-top: 0; margin-left: 0}
+.about-me .info .hobbies .content .text h3 {margin-bottom: 5px;margin-left: 0}
+
+/* My Skills */
+.my-skills {overflow: hidden;}
+.my-skills .skills, .my-skills .progress {width: 50%;}
+.my-skills .skills button {margin-left: 40px;margin-top: 20px;}
+.my-skills .progress {margin-top: 40px;}
+.my-skills .progress .technique {margin-left: 30px;}
+.my-skills .progress .technique div {background-color: #f2f2f2;height: 25px;}
+.my-skills .progress .technique div span {
+    background-color: #2BCC6F;
+    height: 25px;
+    display: block;
+    color: #FFF;
+    text-align: right;
+    line-height: 25px;
+}
+
+/* Resume */
+.resume {background-color: #F2F2F2;}
+.resume p {margin-bottom: 30px;}
+.resume h2 {margin-left: 0}
+
+/* My Education */
+.my-education {overflow: hidden;}
+.my-education .main, .my-education .exp {width: 50%;}
+.my-education .review, .work-experience .review {margin-top: 60px;}
+.my-education .review div, .work-experience .review div {
+    background-color: #2BCC6F;
+    color: #FFF;
+    display: inline-block;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+.my-education .review p, .work-experience .review p {margin-bottom: 2px;}
+.my-education .review h3, .work-experience .review h3 {margin-bottom: 0;}
+.my-education .review hr, .work-experience .review hr, .clearfix hr {
+    margin: 20px 20px 0 40px;
+    background-color: #AAA;
+    height: 1px;
+    border: 0;
+}
+
+/* My Experience */
+.work-experience {overflow: hidden;}
+.work-experience .main, .work-experience .exp {width: 50%;}
+
+/* Testimonials */
+.testimonials {background-color: #F2F2F2;overflow: hidden;}
+.testimonials q {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    font-style: italic;
+}
+.testimonials h3 {font-size: 14px;margin-left: 0;}
+.testimonials ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.testimonials ul li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2BCC6F;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.testimonials ul li.active {background-color: #2BCC6F;}
+.testimonials ul li:hover {background-color: #2BCC6F;}
+
+/* Portfolio */
+.portfolio p {margin-bottom: 60px;}
+.portfolio .our-work {overflow: hidden;}
+.portfolio .our-work > div {
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 10px;
+}
+.portfolio .our-work > div img {
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+/* Contact Me */
+.contact-me {overflow: hidden;background-color: #252F31;}
+.contact-me h2 {color: #BBB;}
+.contact-me .info {width: 50%;}
+.contact-me form {
+    margin-left: 5%;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+.contact-me form span {
+    display: block;
+    color: #BBB;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact-me .info address {margin-left: 40px;color: #666;}
+.contact-me .info span {color: #BBB;}
+.contact-me form button {
+    background-color: #222;
+    color: #BBB;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.contact-me form input {
+    background-color: #666;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    height: 25px;
+    width: 100%;
+}
+.contact-me form textarea {
+    background-color: #666;
+    border: none;
+    height: 150px;
+    width: 100%;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #191E22;
+    overflow: hidden;
+    color: #595E61;
+}
+footer ul {list-style: none;cursor: pointer;}
+footer ul li {display: inline;padding: 5px;}
+footer ul li i:hover {color: #fff;}
+/* My Framework */
+.my-button {
+    background: none;
+    font-size: 15px;
+    border: 2px solid #2BCC6F;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #2BCC6F;
+}
+.fl-left {float: left;}
+p {
+    line-height: 1.6;
+    color: #888;
+    margin-left: 30px;
+}
+h2, h3 {
+    text-transform: uppercase;
+    color: #555;
+    margin-left: 30px;
+}
+h2 {margin-top: 30px;margin-bottom: 20px}
+.txt-center {text-align: center}
+p:last-of-type {margin-top: 20px;}
+.section-padding {padding-top: 20px;padding-bottom: 50px}
